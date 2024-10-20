@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Baby Care",
+        "image": "categoryImg-1.webp"
+    },
+    {
+        "id": 2,
+        "title": "Multivitamins",
+        "image": "categoryImg-2.webp"
+    },
+    {
+        "id": 3,
+        "title": "Personal Care",
+        "image": "categoryImg-3.webp"
+    },
+    {
+        "id": 4,
+        "title": "Glucometer",
+        "image": "categoryImg-4.webp"
+    },
+    {
+        "id": 5,
+        "title": "Women Care",
+        "image": "categoryImg-5.webp"
+    },
+    {
+        "id": 6,
+        "title": "Summer Essentials",
+        "image": "categoryImg-6.webp"
+    },
+    {
+        "id": 7,
+        "title": "Whey & Supplements",
+        "image": "categoryImg-7.webp"
+    },
+    {
+        "id": 8,
+        "title": "Skin Care",
+        "image": "categoryImg-8.webp"
+    },
+    {
+        "id": 9,
+        "title": "Health Devices",
+        "image": "categoryImg-9.webp"
+    },
+    {
+        "id": 10,
+        "title": "Ayurveda",
+        "image": "categoryImg-10.webp"
+    },
+    {
+        "id": 11,
+        "title": "Daitery Stuffs",
+        "image": "categoryImg-11.webp"
+    },
+    {
+        "id": 12,
+        "title": "Daily Essentials",
+        "image": "categoryImg-12.webp"
+    }
+]

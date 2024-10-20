@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fcedf2;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffc7da;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+/* NAVBAR CSS SECTION START FROM HERE */
+.LogoDiv a img {
+  width: 35px;
+  height: auto;
+}
+
+.LogoDiv a {
+  font-size: 26px;
+  font-weight: 600;
+  display: flex;
+  text-decoration: none;
+  align-items: baseline;
+  color: #419693;
+}
+
+.navbarSection {
+  background-color: #fff;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  border: none;
+  z-index: 2;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-bottom: .1px solid #419693;
+}
+
+.navMenuList a:hover {
+  color: #419693;
+}
+
+.navMenuList a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  transition: .3s ease;
+  text-decoration: none;
+}
+
+.navMenuList button:hover {
+  background-color: #419693;
+  color: #fff;
+}
+
+.navMenuList button {
+  border: .1px solid #419693;
+  background-color: transparent;
+  border-radius: 20px;
+  transition: .3s all ease;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 7px 25px;
+  gap: 5px;
+}
+
+.navMenuList {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* NAVBAR CSS SECTION END FROM HERE */
+
+/* HOME SECTION START FROM HERE */
+.homeSection {
+  height: 350px;
+  background-image: url('Image/DocMed-home-bg.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.homeHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+.homeHeading {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.homeInputFeald input {
+  width: 490px;
+  height: 45px;
+  padding-left: 15px;
+  border: none;
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: transparent;
+  outline: none;
+}
+
+.homeInputFeald {
+  width: 550px;
+  border-radius: 15px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.Home-input-container lord-icon {
+  color: #162c2a;
+  cursor: pointer;
+}
+
+.homeCardSection {
+  margin-top: 50px;
+}
+
+.homeCard:hover {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  transform: scale(102%);
+}
+
+.homeCard {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  gap: 15px;
+  transition: .3s ease;
+  border-radius: 10px;
+  width: 210px !important;
+  cursor: pointer;
+}
+
+.homeCard lord-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.homeCardTitle {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.homeCardText p {
+  font-size: 10px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.swiperSection {
+  margin-top: 80px;
+}
+
+.swiperImg {
+  height: 230px;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.swiperImg img:hover {
+  transform: scale(107%);
+}
+
+.swiperImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.headingText {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.productCard img {
+  object-fit: contain;
+  height: 150px;
+  width: 95%;
+}
+
+.productCard {
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.productTitle {
+  font-size: 17px;
+  color: #000;
+  font-weight: 500;
+  text-align: left;
+  width: 90%;
+}
+
+.productPrice span {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.productPrice {
+  display: flex;
+  width: 90%;
+  text-align: left;
+  gap: 12px;
+  font-size: 20px;
+  align-items: center;
+  font-weight: 500;
+}
+
+.productBtn {
+  width: 100%;
+  margin-top: 9px;
+  display: flex;
+  justify-content: center;
+}
+
+.productBtn button:hover {
+  background-color: transparent;
+  color: #000;
+}
+
+.productBtn button {
+  padding: 8px 5px;
+  color: #fff;
+  width: 95%;
+  background-color: #60c854;
+  font-size: 15px;
+  transition: .3s ease;
+  font-weight: 500;
+  border: 1px solid #60c854;
+  border-radius: 10px;
+}
+
+.categoryImg {
+  width: 170px;
+  overflow: hidden;
+  height: 165px;
+  border-radius: 15px;
+}
+
+.categoryImg img {
+  background-color: aquamarine;
+  height: 100%;
+  border-radius: 15px;
+  width: 100%;
+  transition: .3s ease;
+}
+
+.categoryCard:hover .categoryImg img {
+  transform: scale(110%);
+}
+
+.categoryCard {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: #3d3e3e;
+  font-weight: 500;
+}
+
+.categoryContainer a {
+  text-decoration: none;
+}
+
+.categoryContainer {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 50px;
+}
+
+.conditionContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.conditionCard {
+  width: calc(25% - 20px);
+}
+
+.conditionCard:hover .conditionImg img {
+  transform: scale(107%);
+}
+
+.conditionCard {
+  width: calc(25% - 20px);
+}
+
+.conditionCard a:hover {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.conditionCard a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid #419693;
+  border-radius: 15px;
+  transition: .3s ease;
+  padding: 11px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.conditionImg img {
+  width: 40px;
+  height: auto;
+  transition: .3s ease;
+}
+
+.conditionImg {
+  width: 92px;
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.conditionText {
+  font-size: 15px;
+  color: #3d3e3e;
+  font-weight: 500;
+}
+
+.bannerContainer {
+  background-image: url('Image/DT_Banner_2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  padding: 55px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bannerSection {
+  margin-top: 80px;
+}
+
+.bannerHead {
+  max-width: 260px;
+}
+
+.bannerHead .bannerPara {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.bannerHead .bannerTitle {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0c556d;
+  padding-right: 10px;
+  line-height: 1.3;
+}
+
+.bannerBtn button:hover {
+  background-color: transparent;
+  color: #0c556d;
+}
+
+.bannerBtn a {
+  text-decoration: none;
+}
+
+.bannerBtn button {
+  padding: 12px 40px;
+  background-color: #0c556d;
+  font-size: 16px;
+  color: #fff;
+  transition: .3s ease;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 1px solid #0c556d;
+}
+
+.accordion-item {
+  margin: 10px 0;
+  border: 1px solid #419693;
+}
+
+.accordion-body {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+
+.accordion-header button {
+  font-size: 15px;
+  font-weight: 500;
+  color: #162c2a;
+}
+
+/* HOME SECTION END FROM HERE */
+
+/* CARD MODAL CSS START FROM HERE */
+.cartModalContainer {
+  max-width: none !important;
+  width: 700px !important;
+}
+
+.cartImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  padding: 10px;
+  border-radius: 10px;
+  border: .5px solid #F2AE2B;
+}
+.cartImg img {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  mix-blend-mode: darken;
+}
+
+.cartModal {
+  display: flex;
+  gap: 20px;
+}
+
+.cartSubHeading {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.cartHeading {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.cartPrice {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.cartPrice span {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.addmore{
+  margin: 10px 0;
+}
+.addmoreText {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.addmoreBtn button .material-symbols-outlined {
+  font-size: 18px;
+}
+.addmoreBtn button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.addmoreBtn {
+  justify-content: space-between;
+  display: flex;
+  border: .5px solid #F2AE2B;
+  background-color: #fffdeb;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 110px;
+}
+.totalAmountText{
+  font-size: 16px;
+  font-weight: 600;
+}
+.totalAmount {
+  margin: 15px 0;
+}
+.totalAmount span {
+  font-weight: 600;
+}
+.aadToCartBtn button:hover{
+  background-color: transparent;
+  color: #60c854;
+}
+.aadToCartBtn button{
+  padding: 8px 5px;
+  color: #fff;
+  width: 95%;
+  background-color: #60c854;
+  font-size: 15px;
+  transition: .3s ease;
+  transition: .3s ease;
+  font-weight: 500;
+  border: 1px solid #60c854;
+  border-radius: 10px;
+}
+.cartDiscription {
+  border: 1px solid #c0c0c0;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 13px;
+}
+.cartText{
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+/* CARD MODAL CSS END FROM HERE */
+
+/* FOOTER SECTION START FROM HERE */
+.footerSection {
+  background-color: #e5f9f8;
+  padding: 70px 0;
+  margin-top: 70px;
+}
+
+.footerHead h4 {
+  font-size: 17px;
+  color: #162c2a;
+  font-weight: 600;
+}
+
+.footerList {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerCoontainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerList a:hover {
+  color: #419693;
+}
+
+.footerList a {
+  transition: .3s ease;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  cursor: pointer;
+  margin: 2.5px 0;
+  text-decoration: none;
+}
+
+/* FOOTER SECTION END FROM HERE */

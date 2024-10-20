@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "card-1.webp"
+    },
+    {
+        "id": 2,
+        "image": "card-2.webp"
+    },
+    {
+        "id": 3,
+        "image": "card-3.webp"
+    },
+    {
+        "id": 4,
+        "image": "card-4.webp"
+    },
+    {
+        "id": 5,
+        "image": "card-5.webp"
+    },
+    {
+        "id": 6,
+        "image": "card-6.webp"
+    }
+]

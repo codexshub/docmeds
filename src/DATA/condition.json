@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "title": "Cold & Immunity",
+        "image": "healthImg-1.webp"
+    },
+    {
+        "id":2,
+        "title": "Cardiac Care",
+        "image": "healthImg-2.webp"
+    },
+    {
+        "id":3,
+        "title": "Stomach Care",
+        "image": "healthImg-3.webp"
+    },
+    {
+        "id":4,
+        "title": "Oral Care",
+        "image": "healthImg-4.webp"
+    },
+    {
+        "id":5,
+        "title": "Respiratory",
+        "image": "healthImg-5.webp"
+    },
+    {
+        "id":6,
+        "title": "Liver Care",
+        "image": "healthImg-6.webp"
+    },
+    {
+        "id":7,
+        "title": "Pain Relief",
+        "image": "healthImg-7.webp"
+    },
+    {
+        "id":8,
+        "title": "Sexual Health",
+        "image": "healthImg-8.webp"
+    }
+]

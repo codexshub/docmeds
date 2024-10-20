@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "image": "img-1.jpg",
+        "title": "Paracitamol",
+        "price": 209.75,
+        "discount": 360.61
+    },
+    {
+        "id": 2,
+        "image": "img-2.webp",
+        "title": "Ibugesic Plus",
+        "price": 209.00,
+        "discount": 360.00
+    },
+    {
+        "id": 3,
+        "image": "img-3.jpg",
+        "title": "Crocin Tablet",
+        "price": 209.00,
+        "discount": 360.00
+    },
+    {
+        "id": 4,
+        "image": "img-4.jpg",
+        "title": "Disprin Tablet",
+        "price": 209.00,
+        "discount": 360.00
+    },
+    {
+        "id": 5,
+        "image": "img-5.jpg",
+        "title": "Verifica Tablet",
+        "price": 209.00,
+        "discount": 360.00
+    },
+    {
+        "id": 6,
+        "image": "img-6.jpg",
+        "title": "Aciloc 150mg",
+        "price": 209.00,
+        "discount": 360.00
+    },
+    {
+        "id": 7,
+        "image": "img-7.webp",
+        "title": "Aciloc 150mg",
+        "price": 209.00,
+        "discount": 360.00
+    }
+]
